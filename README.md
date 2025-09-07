@@ -31,7 +31,8 @@ src
     ├── Program.cs
     └── Startup.cs (veya builder ayarları)
 ```
-##⚙️ Katmanlar ve Teknolojiler
+
+## ⚙️ Katmanlar ve Teknolojiler
 
 ### 🔸 Core
 
@@ -66,6 +67,8 @@ src
 - Controller’lar üzerinden Application katmanındaki CQRS handler’ları tetiklenir.  
 - Dependency Injection kullanılarak Repository ve Service bağımlılıkları çözülür.  
 - İstemciler (örneğin Web, Mobil veya başka API’ler) bu katman üzerinden sisteme erişir.  
+
+---
 
 ## 🚀 Kullanılan Teknolojiler
 - .NET 9 (ASP.NET Core Web API)
